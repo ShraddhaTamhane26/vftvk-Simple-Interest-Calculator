@@ -12,16 +12,16 @@
         <h1>Simple Interest Calculator</h1>
         <div class="inpSection">
             <div class="amt">
-                <label for="amount"> Amount:   </label>
-                <input type="number" name="amount" id="amount" placeholder="Amount">
+                <label for="amount">Enter Total Amount:   </label>
+                <input type="number" name="amount" id="amount" placeholder="Enter Total Amount">
             </div>
-            <div class="year">
-                <label for="year">No. of Years:   </label>
-                <input type="number" name="year" id="year" placeholder="No. of Years">
+            <div class="time">
+                <label for="time">Enter Time:   </label>
+                <input type="number" name="time" id="time" placeholder="Enter Time">
             </div>
             <div class="rate">
-                <label for="rate">Interest Rate: </label>
-                <input type="number" name="rate" id="rate" placeholder="Interest Rate">
+                <label for="rate">Rate: </label>
+                <input type="number" name="rate" id="rate" placeholder="Enter Rate">
             </div>
             <div class="button">
                 <button onclick="Calculate()">Calculate</button>
@@ -31,20 +31,20 @@
             </div>
         </div>
     </div>
-   <footer>
-       <p> ⒸEveryone Can Get Rich </p>
-   </footer>
+    <footer>
+        <p> Ⓒ Everyone Can Get Rich </p>
+</footer>
 </body>
-    <script>
+<script>
     function Calculate()
     {
         let p=document.getElementById('amount').value;
-        let n=document.getElementById('year').value;
-        let r=document.getElementById('interest rate').value;
+        let t=document.getElementById('time').value;
+        let r=document.getElementById('rate').value;
 
-        let  SI=(p*n*r/100);
+        let  SI=(p*t*r)/100;
 
-        document.getElementById('si').innerHTML="You will receive an amount of: "+SI;
+        document.getElementById('si').innerHTML="The Total Simple Intrest Is: "+SI;
     }
 </script>
 </html>
