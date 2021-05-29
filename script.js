@@ -1,5 +1,4 @@
-<script>
-    function Calculate()
+function Compute Interest ()
     {
         let p=document.getElementById('amount').value;
         let n=document.getElementById('year').value;
@@ -9,5 +8,3 @@
 
         document.getElementById('si').innerHTML="You will receive an amount of: "+SI;
     }
-        
-</script>
