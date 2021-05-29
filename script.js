@@ -1,4 +1,4 @@
-<script>
+####<script>
     function compute()
     {
         let p=document.getElementById('amount').value;
