@@ -1,4 +1,4 @@
-function Compute Interest ()
+function compute()
     {
         let p=document.getElementById('amount').value;
         let n=document.getElementById('year').value;
