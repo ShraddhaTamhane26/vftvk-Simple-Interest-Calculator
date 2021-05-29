@@ -1,4 +1,4 @@
-
+<script>
     function Calculate()
     {
         let p=document.getElementById('amount').value;
@@ -10,3 +10,4 @@
         document.getElementById('si').innerHTML="You will receive an amount of: "+SI;
     }
         
+</script>
