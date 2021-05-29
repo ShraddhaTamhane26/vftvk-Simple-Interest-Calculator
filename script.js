@@ -1,4 +1,5 @@
-function compute()
+<script>
+    function compute()
     {
         let p=document.getElementById('amount').value;
         let n=document.getElementById('year').value;
@@ -8,3 +9,4 @@ function compute()
 
         document.getElementById('si').innerHTML="You will receive an amount of: "+SI;
     }
+</script>
